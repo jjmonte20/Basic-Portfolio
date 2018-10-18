@@ -1,0 +1,61 @@
+body {
+	max-width: 960px;
+	margin: auto;
+	color: #777777;
+	text-align: center;
+	background-image: url("../images/scratchpaper.jpg");
+
+}
+
+#header {
+	background-color: #ffffff;
+	padding: 20px;
+	border-color: #cccccc;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+
+#name {
+	background-color: #4aaaa5;
+	color:#ffffff;
+	padding: 20px;
+	float: left;
+}
+
+.nav {
+	float: right;
+	padding: 20px;
+	background-color: white;
+}
+
+#mainbox {
+	background-color: #ffffff;
+	border: 3px;
+	border-color: #dddddd;
+	clear: both;
+	width: 100%;
+	overflow: auto;
+}
+
+#footer {
+
+	color: #ffffff;
+	background-color: #666666;
+	padding: 20px;
+	border-top: 10px;
+	border-style: solid;
+	border-color: #4aaaa5;
+	clear: both;
+	margin-top: 10px;
+}
+
+#headshot {
+	float: left;
+	max-height: 60%;
+	max-width: 20%;
+	margin:10px;
+}
+
+#text {
+	margin: 10px;
+}
