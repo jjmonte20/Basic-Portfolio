@@ -26,6 +26,7 @@ body {
 	float: right;
 	padding: 20px;
 	background-color: white;
+	flex: auto;
 }
 
 #mainbox {
@@ -42,7 +43,10 @@ body {
 	color: #ffffff;
 	background-color: #666666;
 	padding: 20px;
+	border-right: 0px;
+	border-bottom: 0px;
 	border-top: 10px;
+	border-left: 0px;
 	border-style: solid;
 	border-color: #4aaaa5;
 	clear: both;
@@ -58,4 +62,31 @@ body {
 
 #text {
 	margin: 10px;
+}
+
+#indclick {
+	float: left;
+	padding: 10px;
+	border-right: 1px;
+	border-bottom: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	border-style: solid;
+	border-color: #777777;
+}
+
+#portclick {
+	float: left;
+	padding: 10px;
+}
+
+#contclick {
+	float: left;
+	padding: 10px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-top: 0px;
+	border-left: 1px;
+	border-style: solid;
+	border-color: #777777;
 }
