@@ -5,6 +5,15 @@ body {
 	text-align: center;
 	background-image: url("../images/scratchpaper.jpg");
 
+
+}
+
+h1 {
+	font-family: Georgia, Times, Times New Roman, serif;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #header {
@@ -33,16 +42,6 @@ body {
 	flex: auto;
 }
 
-#mainbox {
-	background-color: #ffffff;
-	border: 2px;
-	border-color: #dddddd;
-	border-style: solid;
-	clear: both;
-	width: 100%;
-	overflow: auto;
-}
-
 #footer {
 
 	color: #ffffff;
@@ -60,9 +59,9 @@ body {
 
 #headshot {
 	float: left;
-	max-height: 60%;
-	max-width: 20%;
-	margin:10px;
+	max-height: 200px;
+	max-width: 200px;
+	margin-right: 10px;
 }
 
 #text {
@@ -94,4 +93,53 @@ body {
 	border-left: 1px;
 	border-style: solid;
 	border-color: #777777;
+}
+
+.mainbox {
+	width: 100%;
+	overflow: auto;
+	background-color: white;
+	border: 2px;
+	border-style: solid;
+	border-color: #dddddd;
+}
+
+.mainboxh {
+	color: #4aaaa5;
+	float: left;
+	padding: 10px;
+}
+
+.headingy {
+	margin-left: 10px;
+}
+
+.underheading {
+	clear:both;
+	overflow:auto;
+	margin: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #777777;
+}
+
+#inputs {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 20px;
+	clear: both;
+	border-top: 2px;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #777777;
+}
+
+.textbox {
+	width: 100%;
 }
