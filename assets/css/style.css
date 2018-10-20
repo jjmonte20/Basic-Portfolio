@@ -2,7 +2,6 @@ body {
 	max-width: 960px;
 	margin: auto;
 	color: #777777;
-	text-align: center;
 	background-image: url("../images/scratchpaper.jpg");
 
 
@@ -55,6 +54,7 @@ p {
 	border-color: #4aaaa5;
 	clear: both;
 	margin-top: 10px;
+	text-align: center;
 }
 
 #headshot {
@@ -142,4 +142,21 @@ p {
 
 .textbox {
 	width: 100%;
+}
+
+.underheading1 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	clear: both;
+	overflow: auto;
+	margin: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    border-bottom: 0px;
+    border-left: 0px;
+	border-right: 0px;
+	max-height: 600px;
+    border-style: solid;
+    border-color: #777777;
 }
