@@ -1,10 +1,13 @@
+html {
+	height:100%;
+}
+
 body {
 	max-width: 960px;
+	height: 100%;
 	margin: auto;
 	color: #777777;
 	background-image: url("../images/scratchpaper.jpg");
-
-
 }
 
 h1 {
@@ -13,6 +16,7 @@ h1 {
 
 p {
 	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
 }
 
 #header {
@@ -41,21 +45,26 @@ p {
 	flex: auto;
 }
 
-#footer {
+.wrapper {
+	min-height: 100%;
+}
 
+.footer {
 	color: #ffffff;
 	background-color: #666666;
 	padding: 20px;
 	border-right: 0px;
 	border-bottom: 0px;
-	border-top: 10px;
+	border-top: 5px;
 	border-left: 0px;
 	border-style: solid;
 	border-color: #4aaaa5;
 	clear: both;
-	margin-top: 10px;
+	margin-top: 0px;
 	text-align: center;
 }
+
+
 
 .headshot {
 	float: left;
@@ -102,6 +111,11 @@ p {
 	border: 2px;
 	border-style: solid;
 	border-color: #dddddd;
+}
+
+.push,
+.footer {
+	height: 30px;
 }
 
 .mainboxh {
