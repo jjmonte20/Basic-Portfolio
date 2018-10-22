@@ -57,10 +57,10 @@ p {
 	text-align: center;
 }
 
-#headshot {
+.headshot {
 	float: left;
-	max-height: 200px;
-	max-width: 200px;
+	height: 200px;
+	width: 200px;
 	margin-right: 10px;
 }
 
@@ -172,6 +172,7 @@ p {
 	bottom: 10px;
 	width: 200px;
 	text-align: center;
+	font-size: 12px;
 	background-color:#4aaaa5;
 	color:#ebebeb;
 
